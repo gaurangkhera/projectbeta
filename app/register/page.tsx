@@ -169,7 +169,7 @@ export default function Register() {
                 >
                   <option value="">Select your class</option>
                   {classes.map((cls) => (
-                    <option key={cls} value={cls} className="bg-slate-900-light">
+                    <option key={cls} value={cls} className="bg-slate-900">
                       Class {cls}
                     </option>
                   ))}
@@ -192,7 +192,7 @@ export default function Register() {
                 >
                   <option value="">Select a department</option>
                   {departments.map((dept) => (
-                    <option key={dept} value={dept} className="bg-slate-900-light">
+                    <option key={dept} value={dept} className="bg-slate-900">
                       {dept}
                     </option>
                   ))}

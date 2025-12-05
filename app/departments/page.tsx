@@ -82,7 +82,7 @@ export default function Departments() {
 
               {/* Skills */}
               <div>
-                <h4 className="text-sm font-semibold text-slate-400-light mb-2">
+                <h4 className="text-sm font-semibold text-slate-400 mb-2">
                   Key Skills:
                 </h4>
                 <div className="flex flex-wrap gap-2">
